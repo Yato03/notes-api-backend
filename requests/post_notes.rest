@@ -1,0 +1,15 @@
+POST http://localhost:3000/api/notes 
+Content-Type: application/json
+
+{
+  "important": true,
+  "content": "This is my first note"
+}
+
+###
+POST http://localhost:3000/api/notes 
+Content-Type: application/json
+
+{
+  "algo random": "jajaja"
+}
